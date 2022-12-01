@@ -28,5 +28,17 @@ class MyImages {
   static const String slider1 = '${imageAssets}slider1.jpg';
   static const String slider2 = '${imageAssets}slider2.jpg';
   static const String slider3 = '${imageAssets}slider3.jpg';
+  static const String subcat1 = '${iconAssets}nu1.png';
+  static const String cate1 = '${iconAssets}cate1.png';
+  static const String cate2 = '${iconAssets}cate2.png';
+  static const String cate3 = '${iconAssets}cate3.png';
+  static const String cate4 = '${iconAssets}cate4.png';
+  static const String clean1 = '${iconAssets}clean1.png';
+  static const String clean2 = '${iconAssets}clean2.png';
+  static const String clean3 = '${iconAssets}clean3.png';
+  static const String clean4 = '${iconAssets}clean4.png';
+  static const String locat = '${iconAssets}locato.png';
+  static const String sort_down = '${iconAssets}sort-down.png';
+ 
   
 }

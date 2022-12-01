@@ -4,6 +4,7 @@ import 'package:sa3ada/shared/images.dart';
 
 import '../data/model/categories_home_model.dart';
 import '../data/model/category_model.dart';
+import '../data/model/subcategories_home_model.dart';
 import '../data/model/userHome_model.dart';
 import '../data/model/userReview_model.dart';
 import '../translation/languages.dart';
@@ -64,27 +65,49 @@ List<CategoriesHomeModel> cateHome = [
   CategoriesHomeModel(
       text: 'تنظيف المنزل',
       subtitle: "احتياجات التنظيف اليومية و العميقة مع كلينرز محترفين",
-      image: Icons.wash,
+      image: MyImages.cate1,
      ),
   CategoriesHomeModel(
       text: "الصيانة و التركيبات",
       subtitle: "صلح و ركب اى حاجه فى بيتك",
-      image: Icons.man_sharp,
+      image: MyImages.cate2,
      ),
   CategoriesHomeModel(
       text: "صالون تجميل منزلى",
       subtitle: "اخصائيين تجميل لخدمات الكوافير و الأظافر و ازالة الشعر",
-      image: Icons.holiday_village,
+      image: MyImages.cate3,
      ),
   CategoriesHomeModel(
       text: "تحاليل طبية بالمنزل",
       subtitle: "كشف منزلي ، تمريض منزلي ، تحاليل طبية ",
-      image: Icons.safety_check,
+      image: MyImages.subcat1,
      ),
 
 
 ];
 
+List<SubCategoriesHomeModel> subcate = [
+  SubCategoriesHomeModel(
+      submcatename: 'تنظيف عادى',
+      submcateimage: MyImages.clean1,
+     ),
+  SubCategoriesHomeModel(
+      submcatename: "تنظيف عميق",
+      submcateimage: MyImages.clean4,
+     ),
+  SubCategoriesHomeModel(
+      submcatename: "تطهير",
+      submcateimage: MyImages.clean3,
+     ),
+  SubCategoriesHomeModel(
+      submcatename: "تنظيف بعد التشطيب",
+      submcateimage: MyImages.clean2,
+     ),
+
+
+
+
+];
 // List<PathModel> pathList = [
 //   PathModel(
 //     image: MyImages.layer7,

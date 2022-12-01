@@ -3,7 +3,7 @@ import 'package:flutter/cupertino.dart';
 class CategoriesHomeModel {
   String? text;
   String? subtitle;
-  IconData? image;
+  String? image;
   CategoriesHomeModel({
   required this.text,
   required this.subtitle,

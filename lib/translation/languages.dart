@@ -37,6 +37,8 @@ enum LanguagesKeys {
   note_success,
   back_to_home,
   order_summary,
+  house_cleaning,
+  house_cleaning_dec,
   // find_platform,
   // notifications,
   // platforms,

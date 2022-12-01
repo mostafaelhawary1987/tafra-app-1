@@ -39,7 +39,7 @@ class CategoryCardSectionWidget extends StatelessWidget {
                   maxLines: 1,
                   overflow: TextOverflow.ellipsis,
                   textAlign: TextAlign.center,
-                  style: Theme.of(context).textTheme.caption!.copyWith(
+                  style: Theme.of(context).textTheme.bodyText1!.copyWith(
                       color: Theme.of(context).colorScheme.primary,
                       fontFamily: MyFontFamily.medium))),
         ],

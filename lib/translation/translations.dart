@@ -60,6 +60,16 @@ class Languages extends Translations {
     ////////////////////////////////////
     ////////////////////////////////////
     _addString(
+      key: LanguagesKeys.house_cleaning.toString(),
+      enValue: "House cleaning",
+      arValue: "تنظيف المنزل",
+    );
+    _addString(
+      key: LanguagesKeys.house_cleaning_dec.toString(),
+      enValue: "Daily and deep cleaning needs with professional cleaners",
+      arValue: "احتياجات التنظيف اليومية و العميقة مع كلينرز محترفين",
+    );
+    _addString(
       key: LanguagesKeys.specialties.toString(),
       enValue: 'Specialties:',
       arValue: "التخصصات :",

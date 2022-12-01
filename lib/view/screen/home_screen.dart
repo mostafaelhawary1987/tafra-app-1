@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
     return ScaffoldWidget(
         content: Scaffold(
             appBar: const MainAppBar(
-              title: 'مرحبا د.شادى',
+              title: '',
             ),
             body: SingleChildScrollView(
               physics: const BouncingScrollPhysics(),
@@ -33,13 +33,13 @@ class HomeScreen extends StatelessWidget {
               child: Column(
                 children: [
                   CarouselWidget(),
-CategoriesHomeWidget(),
+                  CategoriesHomeWidget(),
                   // ListView.separated(
                   //   physics: const BouncingScrollPhysics(),
                   //   shrinkWrap: true,
                   //   itemCount: cateHome.length,
                   //   itemBuilder: (context, index) {
-                  //     return const 
+                  //     return const
                   //   },
                   //   separatorBuilder: (context, index) {
                   //     return SizedBox(

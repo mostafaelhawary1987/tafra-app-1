@@ -45,6 +45,7 @@ class _LoginScreenState extends State<LoginScreen> {
     return ScaffoldWidget(
       content: Scaffold(
         appBar: MainAppBar(
+          
           title: LanguagesKeys.login_in.toString().tr,
           back: false,
         ),

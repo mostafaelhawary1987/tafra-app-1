@@ -23,6 +23,12 @@ class MainController extends GetxController {
     MyImages.slider2,
     MyImages.slider3,
   ];
+  String? selectfilter;
+  selectFilter({String? value}) {
+    selectfilter = value;
+    var selectsearch;
+    selectsearch.text = value!;
+  }
 
   // var tabs = [
   //   const HomeScreen(),

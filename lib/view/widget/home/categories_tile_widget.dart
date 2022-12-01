@@ -5,7 +5,7 @@ import '../../../shared/sizes.dart';
 
 class CategoriesTileWidget extends StatelessWidget {
   final String text;
-  final IconData image;
+  final String image;
   final String subtitle;
   final void Function()? onTap;
   const CategoriesTileWidget(
@@ -22,7 +22,7 @@ class CategoriesTileWidget extends StatelessWidget {
         padding: EdgeInsets.symmetric(vertical: MySizes.horizontalMargin / 2),
         height: MySizes.horizontalMargin * 3,
         decoration: BoxDecoration(
-            color: Theme.of(context).colorScheme.background,
+            color: Theme.of(context).colorScheme.onPrimary,
             borderRadius: BorderRadius.circular(MySizes.rectRadius),
             boxShadow: [
               BoxShadow(
@@ -53,11 +53,8 @@ class CategoriesTileWidget extends StatelessWidget {
                   EdgeInsets.symmetric(horizontal: MySizes.verticalMargin / 4),
               child: Container(
                 width: 50,
-                height: 150,
-                child: Icon(
-                    size: 35.0,
-                    color: Theme.of(context).colorScheme.primary,
-                    image),
+                height: 100,
+                child: Image.asset(image),
               ),
             ),
             trailing: IconButton(
