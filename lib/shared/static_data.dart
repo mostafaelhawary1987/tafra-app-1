@@ -1,6 +1,8 @@
+import 'package:flutter/material.dart';
 import 'package:get/get.dart';
 import 'package:sa3ada/shared/images.dart';
 
+import '../data/model/categories_home_model.dart';
 import '../data/model/category_model.dart';
 import '../data/model/userHome_model.dart';
 import '../data/model/userReview_model.dart';
@@ -14,33 +16,33 @@ List<CategoryModel> categories = [
   CategoryModel(name: LanguagesKeys.cate5.toString().tr, image: MyImages.clean),
 ];
 
-List<UserHomeModel> userHome = [
-  UserHomeModel(
-      image: MyImages.user3,
-      name: 'أسماء ابراهيم',
-      title: 'تنظيف منازل',
-      rate: 2.5),
-  UserHomeModel(
-      image: MyImages.user4,
-      name: 'اشرقت عبدالله',
-      title: 'صالون تجميل منزلى ',
-      rate: 3.8),
-  UserHomeModel(
-      image: MyImages.user1,
-      name: "محمود عبد العظيم",
-      title: 'صيانة و تركيبات',
-      rate: 1.5),
-  UserHomeModel(
-      image: MyImages.user5,
-      name: 'احمد على عبد الرحمن',
-      title: 'تحاليل طبية بالمنزل',
-      rate: 3.5),
-  UserHomeModel(
-      image: MyImages.user6,
-      name: "قمر سيد على",
-      title: 'عناية بالكبار',
-      rate: 2.8),
-];
+// List<UserHomeModel> userHome = [
+//   UserHomeModel(
+//       image: MyImages.user3,
+//       name: 'أسماء ابراهيم',
+//       title: 'تنظيف منازل',
+//       rate: 2.5),
+//   UserHomeModel(
+//       image: MyImages.user4,
+//       name: 'اشرقت عبدالله',
+//       title: 'صالون تجميل منزلى ',
+//       rate: 3.8),
+//   UserHomeModel(
+//       image: MyImages.user1,
+//       name: "محمود عبد العظيم",
+//       title: 'صيانة و تركيبات',
+//       rate: 1.5),
+//   UserHomeModel(
+//       image: MyImages.user5,
+//       name: 'احمد على عبد الرحمن',
+//       title: 'تحاليل طبية بالمنزل',
+//       rate: 3.5),
+//   UserHomeModel(
+//       image: MyImages.user6,
+//       name: "قمر سيد على",
+//       title: 'عناية بالكبار',
+//       rate: 2.8),
+// ];
 
 List<UserReviewModel> userReview = [
   UserReviewModel(
@@ -55,6 +57,30 @@ List<UserReviewModel> userReview = [
     rate: 5.0,
     rateNumber: '5/5'
     )
+
+
+];
+List<CategoriesHomeModel> cateHome = [
+  CategoriesHomeModel(
+      text: 'تنظيف المنزل',
+      subtitle: "احتياجات التنظيف اليومية و العميقة مع كلينرز محترفين",
+      image: Icons.wash,
+     ),
+  CategoriesHomeModel(
+      text: "الصيانة و التركيبات",
+      subtitle: "صلح و ركب اى حاجه فى بيتك",
+      image: Icons.man_sharp,
+     ),
+  CategoriesHomeModel(
+      text: "صالون تجميل منزلى",
+      subtitle: "اخصائيين تجميل لخدمات الكوافير و الأظافر و ازالة الشعر",
+      image: Icons.holiday_village,
+     ),
+  CategoriesHomeModel(
+      text: "تحاليل طبية بالمنزل",
+      subtitle: "كشف منزلي ، تمريض منزلي ، تحاليل طبية ",
+      image: Icons.safety_check,
+     ),
 
 
 ];
